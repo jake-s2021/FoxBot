@@ -4,7 +4,7 @@ import facebook
 import twitter
 
 '''
-   retired code, switched to nodejs
+   retired code; switched to nodejs
 '''
 
 
