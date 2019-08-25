@@ -326,7 +326,7 @@ client.setInterval(getBody = () => { //periodically updates nintendo's twitch st
                 if(getBody.switcher){
                     console.log("online");
                     try{
-                    client.channels.get("214300080163782657").send("Nintendo is Live on Twitch! https://www.twitch.tv/nintendo");
+                    client.channels.get("channel id here").send("Nintendo is Live on Twitch! https://www.twitch.tv/nintendo");
                     }
                     catch(e){
                         console.log(e);
